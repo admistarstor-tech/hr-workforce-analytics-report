@@ -102,7 +102,8 @@ Raw dataset (26 fields, 1,500+ employee records) cleaned and normalized in **MyS
 - Average tenure before resignation (5.16 years) reinforces that turnover is a retention issue, not a hiring-quality issue
 
 ### 6. Training & Development
-![Uploading 6.Training&Development.png…]()
+<img width="1956" height="1096" alt="6 Training Development" src="https://github.com/user-attachments/assets/f0823cd3-e3fa-4f75-b447-8e2ffef5f605" />
+
 
 
 - 268.74 average training hours per employee — yet performance scores are nearly identical across all training-hour brackets (71.36–71.61)
