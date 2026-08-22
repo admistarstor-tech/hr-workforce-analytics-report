@@ -1,5 +1,6 @@
 # HR Workforce Analytics Report
 End-to-end HR analytics project: MySQL data modeling + Power BI dashboard analyzing attrition drivers, performance gaps, and training-performance correlation for a 1,500-employee company
+
 **Author:** Tan Le Minh (M) · **Role:** Data Analyst (Solo Project)
 **Duration:** Jul 21, 2026 – Aug 21, 2026
 **Tools:** MySQL · Excel · Power BI (Data Modeling & DAX)
@@ -48,7 +49,8 @@ Raw dataset (26 fields, 1,500+ employee records) cleaned and normalized in **MyS
 - Deduplicated performance records via `ROW_NUMBER() OVER (PARTITION BY ...)` to keep the latest review per employee
 - Built Power BI relationships and DAX measures — designed to **answer specific business questions**, not just display raw numbers
 
-📄 Full scripts: 
+📄 Full scripts: https://github.com/admistarstor-tech/hr-workforce-analytics-report/blob/9d563840c2339612fc5beca45067d48ee527e3e1/SQL/Create_tables.sql
+                  
 
 ---
 
