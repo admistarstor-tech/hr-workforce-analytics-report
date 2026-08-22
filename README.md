@@ -49,15 +49,15 @@ Raw dataset (26 fields, 1,500+ employee records) cleaned and normalized in **MyS
 - Deduplicated performance records via `ROW_NUMBER() OVER (PARTITION BY ...)` to keep the latest review per employee
 - Built Power BI relationships and DAX measures — designed to **answer specific business questions**, not just display raw numbers
 
-📄 Full scripts: https://github.com/admistarstor-tech/hr-workforce-analytics-report/blob/9d563840c2339612fc5beca45067d48ee527e3e1/SQL/Create_tables.sql
-                  
+📄 Full scripts:<img width="731" height="1380" alt="Screenshot 2026-08-11 163512" src="https://github.com/user-attachments/assets/5d9e1df3-407f-4788-a060-de3b096d3424" />
+
 
 ---
 
 ## 📊 Dashboard Structure (6 Pages)
 
 ### 1. Workforce Overview
-![Workforce Overview] <img width="1960" height="1106" alt="1 Workforce" src="https://github.com/user-attachments/assets/e1229ddb-a91d-46ed-969b-6b1d78fe4af3" />
+<img width="1960" height="1106" alt="1 Workforce" src="https://github.com/user-attachments/assets/e1229ddb-a91d-46ed-969b-6b1d78fe4af3" />
 
 
 - Grew from 26 (2018) to a peak of 1,500 (2025), now 1,387 active employees
@@ -65,14 +65,16 @@ Raw dataset (26 fields, 1,500+ employee records) cleaned and normalized in **MyS
 - Headcount has stabilized, signaling a shift from growth phase to structural optimization
 
 ### 2. Attendance Analysis
-![Attendance Analysis](./screenshots/02_attendance.png)
+<img width="1950" height="1096" alt="2 Attendance" src="https://github.com/user-attachments/assets/4c1704c0-82c3-493a-b773-d47b0cf665fa" />
+
 
 - Strong attendance rate (97.18%), low absenteeism (2.83%)
 - Late-arrival patterns are individual-level, not department-driven — better suited to targeted coaching than blanket policy
 - IT and HR log the highest total work hours, largely explained by headcount size rather than workload intensity
 
 ### 3. Attrition Analysis
-![Attrition Analysis](./screenshots/03_attrition.png)
+<img width="1953" height="1096" alt="3 Attrition" src="https://github.com/user-attachments/assets/745ce3b3-80fd-46ae-a68e-d25ed7325861" />
+
 
 - **Attrition rate: 7.53%** (113 resignations)
 - **Key finding:** ~half of resignations (54) came from employees with 5+ years tenure vs. effectively none under 1 year
@@ -80,21 +82,24 @@ Raw dataset (26 fields, 1,500+ employee records) cleaned and normalized in **MyS
 - **Insight:** the company is losing experienced, mid-career talent — a higher-cost retention risk than typical early-tenure turnover
 
 ### 4. Performance Analysis
-![Performance Analysis](./screenshots/04_performance.png)
+<img width="1956" height="1095" alt="4 Performance" src="https://github.com/user-attachments/assets/05810418-ba82-4412-9881-e846c268f08f" />
+
 
 - Average performance score stable at 71.54 (flat trend over ~2 years)
 - KPI achievement rate (28.21%) is *lower* than the low-performance rate (30.28%)
 - **Manager Operations is a clear outlier at 67.11**, notably below every other department (71.8–72.3 range)
 
 ### 5. Recruitment Analysis
-![Recruitment Analysis](./screenshots/05_recruitment.png)
+<img width="1953" height="1097" alt="5 Recruitment" src="https://github.com/user-attachments/assets/af5b7396-0d2f-4ea7-8a70-847226b9c15c" />
+
 
 - Average time-to-hire: **50 days** — the clearest operational bottleneck on the dashboard
 - Hiring diversified evenly across 6 sources; Internal referrals produce the highest-performing hires (72.10 avg)
 - Average tenure before resignation (5.16 years) reinforces that turnover is a retention issue, not a hiring-quality issue
 
 ### 6. Training & Development
-![Training & Development](./screenshots/06_training.png)
+![Uploading 6.Training&Development.png…]()
+
 
 - 268.74 average training hours per employee — yet performance scores are nearly identical across all training-hour brackets (71.36–71.61)
 - **Finding:** training hours show no measurable correlation with performance
