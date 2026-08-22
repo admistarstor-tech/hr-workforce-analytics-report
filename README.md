@@ -1,7 +1,8 @@
 # HR Workforce Analytics Report
 End-to-end HR analytics project: MySQL data modeling + Power BI dashboard analyzing attrition drivers, performance gaps, and training-performance correlation for a 1,500-employee company
 
-**Author:** Tan Le Minh (M) · **Role:** Data Analyst (Solo Project)
+**Author:** Tan Le Minh (M) ·
+**Role:** Data Analyst (Solo Project)
 **Duration:** Jul 21, 2026 – Aug 21, 2026
 **Tools:** MySQL · Excel · Power BI (Data Modeling & DAX)
 
