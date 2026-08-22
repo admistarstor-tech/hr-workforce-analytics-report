@@ -167,4 +167,4 @@ Raw dataset (26 fields, 1,500+ employee records) cleaned and normalized in **MyS
 
 ## 🔗 Links
 - **Live Power BI Dashboard:** [View here](https://app.powerbi.com/view?r=eyJrIjoiNDYxYmZiNTEtODNmZi00Y2I5LThkNWItYjljZGJlNDEwOWIxIiwidCI6ImVkOGYxNjczLTM4OTAtNGRiNC1hM2YwLTk3YWQ5NDI3Yzc0ZiIsImMiOjEwfQ%3D%3D)
-- **Repository:** [hr-workforce-analytics-report](https://github.com/admistartor-tech/hr-workforce-analytics-report)
+- **Repository:** [hr-workforce-analytics-report](https://github.com/admistarstor-tech/hr-workforce-analytics-report)
