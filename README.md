@@ -53,7 +53,6 @@ Raw dataset (26 fields, 1,500+ employee records) cleaned and normalized in **MyS
 - Deduplicated performance records via `ROW_NUMBER() OVER (PARTITION BY ...)` to keep the latest review per employee
 - Built Power BI relationships and DAX measures — designed to **answer specific business questions**, not just display raw numbers
 
-📄 Full scripts:
 <img width="731" height="1380" alt="Screenshot 2026-08-11 163512" src="https://github.com/user-attachments/assets/5d9e1df3-407f-4788-a060-de3b096d3424" />
 
 
